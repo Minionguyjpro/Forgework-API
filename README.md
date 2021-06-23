@@ -2,7 +2,7 @@
 
 A best-effort reimplementation of the Minecraft Forge API.
 
-## Here be dragons
+## Contribution
 If you know Java and would like to contribute, check out our [contribution guide](CONTRIBUTING.md), and join our [Discord server](https://discord.gg/YYZtNBG).
 ## Technical details
 Patchwork API aims to re-implement the entirety of Minecraft Forge as a set of small and modular Fabric mods. This is in order to run Minecraft Forge mods patched using [Patchwork Patcher](https://github.com/PatchworkMC/patchwork-patcher) on Fabric.
