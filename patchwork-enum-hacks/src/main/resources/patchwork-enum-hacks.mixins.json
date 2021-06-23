@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "net.patchworkmc.mixin.enumhacks",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BannerPatternAccessor",
+    "EntityCategoryAccessor",
+    "MixinBannerPattern",
+    "MixinEnchantmentTarget",
+    "MixinEnchantmentTargetInner",
+    "MixinEntityCategory",
+    "MixinOreFeatureConfigTarget",
+    "MixinRarity",
+    "MixinSpawnHelper",
+    "MixinSpawnRestrictionLocation",
+    "MixinStructurePoolProjection",
+    "OreFeatureConfigTargetAccessor",
+    "RarityAccessor",
+    "SpawnRestrictionLocationAccessor",
+    "StructurePoolProjectionAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

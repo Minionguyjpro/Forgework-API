@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "net.patchworkmc.mixin.recipes",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinRecipeGridAligner",
+    "MixinRecipeManager",
+    "MixinShapedRecipe"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

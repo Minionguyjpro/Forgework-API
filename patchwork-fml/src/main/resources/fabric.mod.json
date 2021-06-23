@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "patchwork-fml",
+  "name": "Patchwork FML Interface",
+  "version": "${version}",
+  "license": "LGPL-2.1-only",
+  "icon": "assets/patchwork-fml/icon.png",
+  "contact": {
+    "issues": "https://github.com/PatchworkMC/patchwork-api/issues",
+    "sources": "https://github.com/PatchworkMC/patchwork-api"
+  },
+  "authors": [
+    "PatchworkMC"
+  ],
+  "depends": {
+    "patchwork-api-base": "*"
+  },
+  "entrypoints": {
+    "main": [
+      "net.patchworkmc.impl.fml.PatchworkFML"
+    ]
+  },
+  "description": "Implementation of FML's mod-facing interface.",
+  "custom": {
+    "modmenu:api": true,
+    "modmenu:parent": "patchwork"
+  },
+  "accessWidener": "patchwork-fml.accesswidener"
+}

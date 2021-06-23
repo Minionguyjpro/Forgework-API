@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "patchwork-events-lifecycle",
+  "name": "Patchwork Lifecycle Events",
+  "version": "${version}",
+  "license": "LGPL-2.1-only",
+  "icon": "assets/patchwork-events-lifecycle/icon.png",
+  "contact": {
+    "issues": "https://github.com/PatchworkMC/patchwork-api/issues",
+    "sources": "https://github.com/PatchworkMC/patchwork-api"
+  },
+  "authors": [
+    "PatchworkMC"
+  ],
+  "depends": {
+    "patchwork-api-base": "*",
+    "patchwork-fml": "*"
+  },
+  "entrypoints": {
+  },
+  "mixins": [
+    "patchwork-events-lifecycle.mixins.json"
+  ],
+  "description": "Implementation of the Forge Lifecycle Events.",
+  "custom": {
+    "modmenu:api": true,
+    "modmenu:parent": "patchwork"
+  },
+  "accessWidener": "patchwork-events-lifecycle.accesswidener"
+}

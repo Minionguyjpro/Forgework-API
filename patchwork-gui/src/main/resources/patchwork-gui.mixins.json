@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "package": "net.patchworkmc.mixin.gui",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinAbstractButtonWidget",
+    "MixinAbstractInventoryScreen",
+    "MixinGameRenderer",
+    "MixinKeyboard",
+    "MixinMinecraftClient",
+    "MixinMouse",
+    "MixinScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1,
+    "maxShiftBy": 2
+  }
+}

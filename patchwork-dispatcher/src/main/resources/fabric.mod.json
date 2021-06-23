@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "patchwork-dispatcher",
+  "version": "${version}",
+  "name": "Patchwork Dispatcher",
+  "description": "Starts Patchwork mods",
+  "authors": [
+    "coderbot"
+  ],
+  "license": "LGPL-2.1-only",
+  "icon": "assets/patchwork-dispatcher/icon.png",
+  "environment": "*",
+  "depends": {
+    "patchwork-api-base": "*",
+    "patchwork-fml": "*",
+    "patchwork-registries": "*",
+    "patchwork-events-lifecycle": "*"
+  },
+  "mixins": [
+    "patchwork-dispatcher.mixins.json"
+  ],
+  "custom": {
+    "modmenu:api": true,
+    "modmenu:parent": "patchwork"
+  }
+}

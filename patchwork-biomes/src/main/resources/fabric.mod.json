@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "patchwork-biomes",
+  "name": "Patchwork Biomes",
+  "version": "${version}",
+  "license": "LGPL-2.1-only",
+  "icon": "assets/patchwork-biomes/icon.png",
+  "contact": {
+    "issues": "https://github.com/PatchworkMC/patchwork-api/issues",
+    "sources": "https://github.com/PatchworkMC/patchwork-api"
+  },
+  "authors": [
+    "PatchworkMC"
+  ],
+  "depends": {
+    "patchwork-api-base": "*"
+  },
+  "description": "Implementation of the Forge Biomes API.",
+  "entrypoints": {
+    "main": [
+      "net.patchworkmc.impl.biomes.PatchworkBiomes"
+    ]
+  },
+  "mixins": [
+    "patchwork-biomes.mixins.json"
+  ],
+  "custom": {
+    "modmenu:api": true,
+    "modmenu:parent": "patchwork"
+  }
+}

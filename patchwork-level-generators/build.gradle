@@ -1,0 +1,12 @@
+archivesBaseName = "patchwork-level-generators"
+version = getSubprojectVersion(project, "0.3.1")
+
+dependencies {
+	implementation project(path: ':patchwork-api-base', configuration: 'dev')
+	implementation project(path: ':patchwork-fml', configuration: 'dev')
+	implementation project(path: ':patchwork-events-world', configuration: 'dev')
+}
+
+loom {
+	accessWidener "src/main/resources/patchwork-level-generators.accesswidener"
+}

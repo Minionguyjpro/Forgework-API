@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "net.patchworkmc.mixin.capability",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinBlockEntity",
+    "MixinChunkSerializer",
+    "MixinItemEntity",
+    "MixinItemStack",
+    "MixinPersistentState",
+    "MixinServerWorld",
+    "MixinWorld",
+    "MixinWorldChunk"
+  ],
+  "client": [
+    "MixinClientWorld"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

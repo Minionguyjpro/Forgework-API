@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "patchwork-extensions",
+  "version": "${version}",
+  "name": "Patchwork Extensions",
+  "description": "Implements the Minecraft Forge extensions API",
+  "authors": [
+    "coderbot"
+  ],
+  "license": "LGPL-2.1-only",
+  "icon": "assets/patchwork-extensions/icon.png",
+  "environment": "*",
+  "depends": {
+    "patchwork-api-base": "*",
+    "fabric": "*"
+  },
+  "mixins": [
+    "patchwork-extensions.mixins.json"
+  ],
+  "entrypoints": {
+    "preLaunch": [
+      "net.patchworkmc.impl.extensions.asm.MassAsmBootstrapper"
+    ]
+  },
+  "custom": {
+    "modmenu:api": true,
+    "modmenu:parent": "patchwork"
+  }
+}

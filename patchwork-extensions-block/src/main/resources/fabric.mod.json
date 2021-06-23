@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "patchwork-extensions-block",
+  "version": "${version}",
+  "icon": "assets/patchwork-extensions-block/icon.png",
+  "name": "Patchwork Extensions Block",
+  "description": "Implementation of Forge's block extensions",
+  "authors": [
+    "PatchworkMC"
+  ],
+  "license": "LGPL-2.1-only",
+  "environment": "*",
+  "depends": {
+    "patchwork-api-base": "*"
+  },
+  "mixins": [
+    "patchwork-extensions-block.mixins.json"
+  ],
+  "accessWidener": "patchwork-extensions-block.accesswidener",
+  "custom": {
+    "modmenu:api": true,
+    "modmenu:parent": "patchwork"
+  }
+}

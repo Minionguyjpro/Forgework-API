@@ -1,0 +1,7 @@
+archivesBaseName = "patchwork-networking-messages"
+version = getSubprojectVersion(project, "0.3.2")
+
+dependencies {
+	implementation project(path: ':patchwork-api-base', configuration: 'dev')
+	implementation project(path: ':patchwork-networking', configuration: 'dev')
+}

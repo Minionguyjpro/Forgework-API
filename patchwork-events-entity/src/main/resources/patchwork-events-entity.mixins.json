@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "net.patchworkmc.mixin.event.entity",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "entity.MixinEntity",
+    "entity.MixinWorldChunk",
+    "item.MixinItemEntity",
+    "item.MixinPlayerEntity",
+    "living.MixinLivingEntity"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

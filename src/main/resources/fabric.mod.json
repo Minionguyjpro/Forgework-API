@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "patchwork",
+  "name": "Patchwork",
+  "version": "${version}",
+  "license": "LGPL-2.1-only",
+  "icon": "assets/patchwork/icon.png",
+  "contact": {
+    "issues": "https://github.com/PatchworkMC/patchwork-api/issues",
+    "sources": "https://github.com/PatchworkMC/patchwork-api"
+  },
+  "authors": [
+    "PatchworkMC"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": ">=0.30.0",
+    "minecraft": "1.16.5"
+  },
+  "description": "Implementation of Minecraft Forge for Fabric.",
+  "custom": {
+    "modmenu:api": true
+  }
+}

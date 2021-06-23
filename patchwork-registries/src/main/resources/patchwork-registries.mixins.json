@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "net.patchworkmc.mixin.registries",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinAllForgeRegistryEntries",
+    "MixinRecipeSerializer",
+    "MixinRecipeSerializerSubclass",
+    "MixinSimpleRegistry"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "patchwork-events-world",
+  "name": "Patchwork World Events",
+  "version": "${version}",
+  "license": "LGPL-2.1-only",
+  "icon": "assets/patchwork-events-world/icon.png",
+  "contact": {
+    "issues": "https://github.com/PatchworkMC/patchwork-api/issues",
+    "sources": "https://github.com/PatchworkMC/patchwork-api"
+  },
+  "authors": [
+    "PatchworkMC"
+  ],
+  "depends": {
+    "patchwork-api-base": "*"
+  },
+  "entrypoints": {
+    "main": [
+      "net.patchworkmc.impl.event.world.WorldEvents"
+    ],
+    "client": [
+      "net.patchworkmc.impl.event.world.WorldEventsClient"
+    ]
+  },
+  "mixins": [
+    "patchwork-events-world.mixins.json"
+  ],
+  "description": "Implementation of the Forge World Events.",
+  "custom": {
+    "modmenu:api": true,
+    "modmenu:parent": "patchwork"
+  }
+}

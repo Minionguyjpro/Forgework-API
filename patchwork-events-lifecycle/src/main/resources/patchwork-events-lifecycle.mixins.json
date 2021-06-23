@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "net.patchworkmc.mixin.event.lifecycle",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "fml.MixinMinecraftServer",
+    "tickevent.MixinMinecraftServer"
+  ],
+  "client": [
+    "fml.MixinIntegratedServer",
+    "tickevent.MixinMinecraftClient"
+  ],
+  "server": [
+    "fml.MixinMinecraftDedicatedServer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

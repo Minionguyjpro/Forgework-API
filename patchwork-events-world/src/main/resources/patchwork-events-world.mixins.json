@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "net.patchworkmc.mixin.event.world",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinLevelInfo",
+    "MixinMinecraftServer",
+    "MixinSaplingBlock",
+    "MixinServerWorld",
+    "MixinSpawnHelper",
+    "MixinThreadedAnvilChunkStorage"
+  ],
+  "client": [
+    "MixinClientWorld",
+    "MixinClientWorldProperties",
+    "MixinMinecraftClient"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
