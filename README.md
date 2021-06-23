@@ -1,4 +1,4 @@
-# THIS IS NO LONGER BEING MAINTAINED, A REPLACEMENT IS BEING DEVELOPED BEHIND THE SCENES
+# Patchwork API
 
 A best-effort reimplementation of the Minecraft Forge API.
 
