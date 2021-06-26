@@ -7,12 +7,12 @@ assignees: ''
 
 ---
 
-**Is your idea based on an already existing one?
+**Is your idea based on an already existing one?**
 
 
 
 
-**Do we need it?
+**Do we need it?**
 
 
 
