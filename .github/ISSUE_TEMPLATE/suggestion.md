@@ -1,6 +1,6 @@
 ---
 name: Suggestion
-about: Create an suggestion to improve the mod
+about: Create an suggestion to improve the API mod
 title: ''
 labels: suggestion
 assignees: ''
