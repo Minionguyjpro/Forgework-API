@@ -14,3 +14,5 @@ This modular organization is modeled after the organization of [Fabric API](http
 1. **Porting**. Since each module is a separate compilation unit, it is possible to port individual modules at a time to newer Minecraft versions. Less critical modules can also be disabled until more critical modules have been ported first.
 2. **Organization**. Modules keep related code together and unrelated code separate. This means that Mixins are located in the same place with code using them. Keeping related code close together makes it easier to reason about the code, and analyze each module in isolation.
 3. **It works**. The modular organization has already been used by Fabric API to great success.
+
+PS: This is not made by me and is made by Glitch and other people. Find the original repository [here](https://github.com/patchworkmc/patchwork-api)
