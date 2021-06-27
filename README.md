@@ -15,4 +15,4 @@ This modular organization is modeled after the organization of [Fabric API](http
 2. **Organization**. Modules keep related code together and unrelated code separate. This means that Mixins are located in the same place with code using them. Keeping related code close together makes it easier to reason about the code, and analyze each module in isolation.
 3. **It works**. The modular organization has already been used by Fabric API to great success.
 
-PS: This is not made by me and is made by Glitch and other people. Find the original repository [here](https://github.com/patchworkmc/patchwork-api)
+PS: This is not made by me and is made by Glitch and other people. Find the original repository [here](https://github.com/patchworkmc/patchwork-api).
