@@ -1,10 +1,10 @@
-# Contributing to Patchwork
+# Contributing to Forgework
 
-Thank you for your interest in contributing! This document provides an overview of the process of contributing to Patchwork.
+Thank you for your interest in contributing! This document provides an overview of the process of contributing to Forgework.
 
 ## Are there any prerequisites?
 
-Patchwork is a somewhat complex project, and there's a few things you should have before you start contributing.
+Forgework is a somewhat complex project, and there's a few things you should have before you start contributing.
 
 1. Basic knowledge of Java
 2. Knowledge of and / or experience using [Mixins](https://github.com/SpongePowered/Mixin)
@@ -39,11 +39,11 @@ We use [A set version of Forge](https://github.com/PatchworkMC/YarnForge) as our
         * Methods added by Forge must have a duck interface
         * By the same token, make duck interfaces with getter/setter methods for fields
         * Any added methods that are not from forge should have the prefix `patchwork$`
-5. Clean up the code so that it adheres to Patchwork's standards.
+5. Clean up the code so that it adheres to Forgework's standards.
     * Remove [obvious lambda abuse](https://github.com/PatchworkMC/YarnForge/blob/04d384add800bc395f4934507721f72eb733389f/src/main/java/net/minecraftforge/fml/network/NetworkRegistry.java#L164-L180) and replace it with more readable code.
     * Avoid [reckless usage](https://github.com/PatchworkMC/YarnForge/blob/04d384add800bc395f4934507721f72eb733389f/src/main/java/net/minecraftforge/fml/network/ICustomPacket.java) at runtime of Unsafe, Reflection, or ASM if possible.
     * Clean up the JavaDoc to replace [MCP names](https://github.com/PatchworkMC/YarnForge/blob/04d384add800bc395f4934507721f72eb733389f/src/main/java/net/minecraftforge/event/entity/EntityEvent.java#L64-L76) with Yarn names.
     * Make sure your code passes checkstyle by running `./gradlew checkstyleMain` (`gradlew.bat checkstyleMain` on Windows)
 6. Test your feature.
     * Simply drop your patched mods into the `run/mods` folder.
-7. Submit a pull request to [Patchwork](https://github.com/PatchworkMC/patchwork-api)!
+7. Submit a pull request to [Forgework](https://github.com/Minionguyjpro/patchwork-api)!
