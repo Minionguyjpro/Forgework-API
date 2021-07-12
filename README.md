@@ -1,4 +1,4 @@
-# Forgework API
+# Forgework API [![](http://cf.way2muchnoise.eu/short_432334_downloads.svg?badge_style=for_the_badge)](https://www.curseforge.com/minecraft/mc-mods/forge-api)
 
 A best-effort reimplementation of the Minecraft Forge API.
 
